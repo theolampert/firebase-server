@@ -33,7 +33,6 @@
   ],
   "devDependencies": {
     "babel": "5.8.23",
-    "bluebird": "2.10.2",
     "co": "4.6.0",
     "coveralls": "2.11.4",
     "eslint": "1.7.3",
@@ -45,12 +44,13 @@
     "proxyquire": "^1.7.3"
   },
   "dependencies": {
+    "any-promise": "^1.1.0",
+    "bluebird": "^2.10.2",
     "cli": "^0.11.1",
     "debug": "^2.2.0",
     "firebase-copy": "0.2.0",
     "jwt-simple": "^0.3.1",
     "lodash": "3.10.1",
-    "native-or-bluebird": "1.2.0",
     "targaryen": "2.0.0",
     "ws": "0.8.1"
   }
